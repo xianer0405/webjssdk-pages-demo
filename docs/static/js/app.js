@@ -1,0 +1,2 @@
+webpackJsonp([1],{NHnr:function(e,n,r){"use strict";Object.defineProperty(n,"__esModule",{value:!0});var p=r("7+uW");p.a.component("App",{render:function(e){return e("div","测试render能力")}}),new p.a({el:"#app",template:"<App/>"})}},["NHnr"]);
+//# sourceMappingURL=app.js.map

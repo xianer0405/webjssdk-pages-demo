@@ -1,2 +1,0 @@
-webpackJsonp([0],{Q5fN:function(e,t,n){"use strict";Object.defineProperty(t,"__esModule",{value:!0});var r={render:function(){this.$createElement;this._self._c;return this._m(0)},staticRenderFns:[function(){var e=this.$createElement,t=this._self._c||e;return t("div",{attrs:{id:"app"}},[t("h1",[this._v("SDK spa")])])}]};var s=n("VU/8")({name:"App"},r,!1,function(e){n("pLwA")},"data-v-353020fe",null);t.default=s.exports},pLwA:function(e,t){}});
-//# sourceMappingURL=0.js.map

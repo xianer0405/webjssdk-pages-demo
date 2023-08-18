@@ -17,6 +17,17 @@
         <script type="text/javascript" src="./static/js/manifest.ff34f111cbdac77b1ed1.js"></script>
         <script type="text/javascript" src="./static/js/vendor.dc6cd5b4e343748424ac.js"></script>
         <script type="text/javascript" src="./static/js/app.4285818a61c7f919c767.js"></script>
+
+        <script>
+            try {
+                const networkInformation = navigator.connection || {}
+                console.log('networkInformation=', networkInformation); 
+                console.log('networkInformation.type=', networkInformation && networkInformation.type); 
+                console.log('networkInformation.effectiveType=', networkInformation && networkInformation.effectiveType); 
+            } catch (error) {
+                    
+            }
+        </script>
 </body>
 
 </html>

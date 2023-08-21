@@ -14,6 +14,7 @@
 
 <body>
         <div id="native">
+            <h1>"native信息："</h1>
         </div>
         <div id="app"></div>
         <script type="text/javascript" src="./static/js/manifest.ff34f111cbdac77b1ed1.js"></script>
@@ -35,6 +36,7 @@
                 // 获取全局对象
                 const BRIDGE =  window.Cdp_App_H5_Bridge;    
                 if (BRIDGE && BRIDGE.obtain_track_event_common_data)  {    
+                    const node = document.querySelector('#native')
                     // 获取参数
                     nativeCommonData = JSON.parse(BRIDGE.obtain_track_event_common_data());
                     node.innerHTML = nativeCommonData;
